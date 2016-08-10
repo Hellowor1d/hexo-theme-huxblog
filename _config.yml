@@ -3,47 +3,47 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kaijun's Blog
-subtitle: To Be A Lean Developer!
-author: Kaijun Chen
-language:
-timezone:
+title: Hellowor1d's Blog
+subtitle: 激情来的时候写代码，灵感来的时候写段子
+description: 前端博客 javaScript Nodejs 技术 生活 Todo
+author: 犀利一下下
+language: zh-CN
+timezone: Asia/Shanghai
+SEOTitle: 犀利一下下的博客 | Hellowor1d's Blog
+header-img: img/night.jpg
+email: 1034597776@qq.com
+# description:
+# keyword:
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kaijun.rocks/hexo-theme-huxblog
-root: /hexo-theme-huxblog/
+url: http://hellowor1d.github.io
+baseurl: /
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 #Custom Setting Start
 
-# Site settings
-SEOTitle: Kaijun的博客 | Kaijun's Blog
-header-img: img/home-bg.jpg
-email: Kaijun.cn@gmail.com
-description: ""
-keyword: ""
-
-
 # SNS settings
 # RSS: false
-weibo_username:     Demonbane
-zhihu_username:     Demonbane
-github_username:    Kaijun
-twitter_username:   Demonbane_x
-facebook_username:  demonbane.cn
-linkedin_username:  kaijun-chen-42089354
+github_username: Hellowor1d
+weibo_username: Hellowor1d
+zhihu_username: xi-li-yixia-xia
+#twitter_username:   Demonbane_x
+#facebook_username:  demonbane.cn
+#linkedin_username:  kaijun-chen-42089354
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 # Disqus settings
-disqus_username: hexo-theme-huxblog
+# disqus_username: hexo-theme-huxblog
 
 # Duoshuo settings
-# duoshuo_username: kaijun
+duoshuo_username: hellowor1d
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -53,14 +53,13 @@ duoshuo_share: true                     # set to false if you want to use Commen
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain:
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我要成为魔法师!"
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
+sidebar-about-description: "千山磊落收云气，四海光明耀日化"
+sidebar-avatar: img/jilaiye.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
@@ -94,7 +93,6 @@ friends: [
 #Custom Setting End
 
 
-
 # Directory
 source_dir: source
 public_dir: public
@@ -106,7 +104,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -115,6 +113,7 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
+#highlight settings
 highlight:
   enable: true
   line_number: true
@@ -147,5 +146,7 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Kaijun/hexo-theme-huxblog
-  branch: gh-pages
+  repository:
+    github: git@github.com:Hellowor1d/Hellowor1d.github.io.git
+    coding: git@git.coding.net:hellowor1d/hellowor1d.git
+ #  branch: master

@@ -95,10 +95,18 @@ article {
   overflow-x: hidden;
 }
 blockquote {
-  color: #808080;
-  font-style: italic;
+  /*hux原有配色*/
+  /*color: #808080;*/
+  /*font-style: normal;*/
+  /*font-size: 0.95em;*/
+  /*margin: 20px 0 20px;*/
+  background: #ddd;
+  /*border-left: 5px solid #ccc;*/
+  font-style: normal;
   font-size: 0.95em;
   margin: 20px 0 20px;
+  border-left: 5px solid #657b83;
+  background: #f6f6f6;
 }
 blockquote p {
   margin: 0;
@@ -532,7 +540,7 @@ pre code {
 }
 .post-content-preview {
   font-size: 13px;
-  font-style: italic;
+  font-style: normal;
   color: #a3a3a3;
 }
 .post-content-preview:hover {
